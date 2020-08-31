@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,33 +8,8 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
         crossorigin="anonymous">
-        <style>
-		
-            #logo{
-            }
 
-            body{
-                background-color: #ebeff5;
-            }
-    
-    
-            #total-orders{
-                background-color: #4cb4c7;
-            }
-    
-    
-            #orders-delivered{
-                background-color: #7abecc;
-            }
-    
-            #orders-pending{
-                background-color: #7CD1C0;
-            }
-    
-    
-    
-    
-        </style>
+        <link rel='stylesheet' type='text/css' href="{% static '/css/main.css'%}">
     </head>
     <body>
 
